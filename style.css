@@ -1,0 +1,133 @@
+
+
+/* font-family: 'Epilogue', sans-serif; */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: hsl(0, 0%, 98%)
+
+}
+.nav-items{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+}
+.nav-ul li a:hover{
+    color: #000;
+}
+.navbar{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.account{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+}
+.register{
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.content{
+    margin-top: 70px;
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end
+   
+}
+.main-content h1{
+    font-family:'Epilogue', sans-serif;;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+.main-content p{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    line-height: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+.pic-content img{
+    height: 600px;
+}
+.button{
+    font-family: 'Epilogue', sans-serif;
+    padding: 10px 20px;
+    width: 140px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.sub-menu{
+    margin-left: -70px;
+    position: absolute;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0.2px 0.5px;
+    border-radius: 10px;
+    display: none;
+}
+.submenu{
+    list-style-type: none;
+    text-align: start;
+}
+.submenu li {
+    padding-bottom: 10px;
+}
+.submenu-link img{
+    padding-right: 20px;
+}
+.sub-menu1{
+    margin-left: -30px;
+    position: absolute;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0.2px 0.5px;
+    border-radius: 10px;
+    display: none;
+}
+.submenu1{
+    list-style-type: none;
+   text-align: start;
+}
+.submenu1 li {
+    padding-bottom: 10px;
+}
+.sponsors img{
+  padding-left:30px ;
+}
